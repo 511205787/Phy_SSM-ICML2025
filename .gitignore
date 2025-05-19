@@ -1,0 +1,38 @@
+# Ignore data directory
+# data/
+
+# Ignore evaluation results
+evaluation_results/
+
+#
+figures/
+
+# Ignore nohup out
+nohup/
+
+# Ignore wandb
+wandb/
+
+# Ignore checkpoints directory
+checkpoints/
+
+# Python specific ignores
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+.codegpt

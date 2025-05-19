@@ -1,0 +1,16 @@
+gym==0.26.2
+jax==0.6.0
+matplotlib==3.10.3
+numpy==2.2.6
+pandas==2.2.3
+pyulog==1.1.0
+Requests==2.32.3
+scipy==1.15.3
+setuptools==69.5.1
+skimage==0.0
+torch==2.2.1+cu121
+torchdiffeq==0.2.4
+torchinfo==1.8.0
+tqdm==4.66.4
+triton==2.2.0
+wandb==0.19.11
