@@ -1,7 +1,7 @@
 # Phy-SSM
 
 This repository contains the code for the paper **“A Generalizable Physics-Enhanced State Space Model for Long-Term Dynamics Forecasting in Complex Environments”**, accepted at ICML 2025.  
-OpenReview: [9NrUIaH1sx](https://openreview.net/forum?id=9NrUIaH1sx&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2025%2FConference%2FAuthors%23your-submissions))
+OpenReview: [Paper Link](https://openreview.net/forum?id=9NrUIaH1sx&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICML.cc%2F2025%2FConference%2FAuthors%23your-submissions))
 
 ---
 
@@ -11,7 +11,7 @@ OpenReview: [9NrUIaH1sx](https://openreview.net/forum?id=9NrUIaH1sx&referrer=%5B
 - Python 3.11  
 - CUDA 11.8 or 12.1 
 - PyTorch 2.2.1+cu121  
-(other variants that support s5-pytorch should also work)
+Note that other variants that support s5-pytorch should also work
 
 1. Clone this repo and enter its root directory:  
    ```bash
@@ -84,7 +84,7 @@ python pissm_train.py --model SIR
 python pissm_train.py --model pendulum_friction
 ```
 
-If you’ve already trained a model and only want to evaluate & plot:
+If you’ve already trained a model and only want to evaluate:
 
 1. In the script’s argument parser, ensure
 
@@ -106,9 +106,9 @@ This project builds upon the [GOKU library](https://github.com/orilinial/GOKU). 
 
 ---
 
-## Citation
+<!-- ## Citation
 
-If you find this work useful, please cite:
+If you find this work useful, please cite: -->
 
 <!-- ```bibtex
 @inproceedings{yourlastname2025physsm,
@@ -119,6 +119,3 @@ If you find this work useful, please cite:
   url       = {https://openreview.net/forum?id=9NrUIaH1sx}
 }
 ``` -->
-
-```
-```
