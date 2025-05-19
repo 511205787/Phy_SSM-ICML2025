@@ -1,0 +1,8 @@
+include:
+  - remote: https://git.devdroplets.com/Ryan/ci-cd-templates/-/raw/main/py-packaging/gitlab-build.yml
+
+stages:
+  - build
+
+build-gitlab:
+  extends: .gitlab-build

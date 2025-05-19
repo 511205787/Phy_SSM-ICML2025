@@ -1,4 +1,3 @@
-````markdown
 # Phy-SSM
 
 This repository contains the code for the paper **“A Generalizable Physics-Enhanced State Space Model for Long-Term Dynamics Forecasting in Complex Environments”**, accepted at ICML 2025.  
@@ -18,7 +17,6 @@ OpenReview: [9NrUIaH1sx](https://openreview.net/forum?id=9NrUIaH1sx&referrer=%5B
    ```bash
    git clone https://github.com/yourusername/Phy-SSM.git
    cd Phy-SSM
-````
 
 2. Install **s5-pytorch** locally (do **not** use the official package):
 
@@ -92,7 +90,7 @@ If you’ve already trained a model and only want to evaluate & plot:
 
    ```python
    parser.add_argument('--resume', '-r', type=bool, default=True, help='Resume from checkpoint')
-   parser.add_argument('--evaluate-only', type=bool, default=True, help='Only evaluate the model and plot locally')
+   parser.add_argument('--evaluate-only', type=bool, default=True, help='Only evaluate the model locally')
    ```
 2. Run:
 
@@ -102,13 +100,13 @@ If you’ve already trained a model and only want to evaluate & plot:
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 This project builds upon the [GOKU library](https://github.com/orilinial/GOKU). Thanks to the authors for their excellent work!
 
 ---
 
-## 📖 Citation
+## Citation
 
 If you find this work useful, please cite:
 
