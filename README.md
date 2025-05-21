@@ -106,16 +106,16 @@ This project builds upon the [GOKU library](https://github.com/orilinial/GOKU). 
 
 ---
 
-<!-- ## Citation
+## Citation
 
-If you find this work useful, please cite: -->
+If you find this work useful, please cite:
 
-<!-- ```bibtex
-@inproceedings{yourlastname2025physsm,
+```bibtex
+@inproceedings{wang2025generalizable,
   title     = {A Generalizable Physics-Enhanced State Space Model for Long-Term Dynamics Forecasting in Complex Environments},
-  author    = {Your Name and Coauthor Name and ...},
-  booktitle = {Proceedings of the 2025 International Conference on Machine Learning},
+  author    = {Wang, Yuchen and Zhao, Hongjue and Lin, Haohong and Xu, Enze and He, Lifang and Shao, Huajie},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning (ICML)},
   year      = {2025},
-  url       = {https://openreview.net/forum?id=9NrUIaH1sx}
+  publisher = {PMLR},
 }
-``` -->
+```
